@@ -29,7 +29,7 @@
   <string name="custom_info_contents">カスタムデザイン１</string>
   <string name="custom_info_window">カスタムデザイン２</string>
   <string name="default_info_window">シンプルデザイン</string>
-  <string name="demo_title">マーカーを追加してみる</string>
+  <string name="demo_title">今どこにいるの？</string>
   <string name="down_arrow">\u2193</string>
   <string name="drag_melbourne">マーカをクリックしてみて？</string>
   <string name="duration">Custom Duration</string>
@@ -67,7 +67,7 @@
   <string name="move_the_camera">Move the camera</string>
   <string name="multi_map_demo_label">Multiple Maps</string>
   <string name="multi_map_demo_description">Demonstrates how to show multiple maps in a single activity.</string>
-  <string name="my_location">My Location</string>
+  <string name="my_location">現在地住所を表示</string>
   <string name="my_location_demo_label">My Location Demo</string>
   <string name="my_location_demo_description">Demonstrates how to use GMS Location</string>
   <string name="mylocation_button">My Location Button</string>

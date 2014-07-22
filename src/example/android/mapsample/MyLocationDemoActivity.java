@@ -96,6 +96,7 @@ public class MyLocationDemoActivity extends FragmentActivity
         }
     }
 
+
     private void setUpLocationClientIfNeeded() {
         if (mLocationClient == null) {
             mLocationClient = new LocationClient(
@@ -111,7 +112,7 @@ public class MyLocationDemoActivity extends FragmentActivity
      */
     public void showMyLocation(View view) {
         if (mLocationClient != null && mLocationClient.isConnected()) {
-            String msg = "Location = " + mLocationClient.getLastLocation();
+            String msg = "現在地 = " + mLocationClient.getLastLocation();
             Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
         }
     }
@@ -121,7 +122,7 @@ public class MyLocationDemoActivity extends FragmentActivity
      */
     @Override
     public void onLocationChanged(Location location) {
-        mMessageView.setText("Location = " + location);
+        mMessageView.setText("現在地の詳細／" +"緯度："+ String.valueOf(location.getLatitude())+"、"+"経度："+ String.valueOf(location.getLongitude()));
     }
 
     /**
